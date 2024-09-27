@@ -73,7 +73,7 @@ console.log("push");
 tests.forEach(t => {
     a.length = 0;
     push(t);
-
+    
     console.log(t, time(push_arr(1000)));
 });
 
